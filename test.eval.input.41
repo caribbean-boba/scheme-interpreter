@@ -1,0 +1,8 @@
+(pair? (quote (a b c)))
+(pair? (quote (3 4)))
+(pair? (quote a))
+(pair? (quote ()))
+(pair? (quote 4))
+(pair? 4)
+(pair? (cons 2 3))
+(pair? #f)

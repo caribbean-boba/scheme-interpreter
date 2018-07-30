@@ -1,0 +1,11 @@
+;;This function takes a lazy list llst and an integer n and returns the n-th value in 
+;the lazy list (counting from 1).
+;;;;;If the lazy list contains fewer than n values, then #f is returned.
+(define nth
+  (lambda (llst n)
+    (cond ((or (null? llst)
+               (< n 1))
+           #f)
+          ;; since n is couting from 1
+          ((= n 1) (car llst))
+(else (nth ((cdr llst)) (- n 1))))))

@@ -1,0 +1,6 @@
+(define x 9)
+(define y x)
+(lambda () y)
+((lambda () y))
+(define x (lambda () y))
+(x)

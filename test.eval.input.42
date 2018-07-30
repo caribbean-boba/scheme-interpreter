@@ -1,0 +1,5 @@
+(begin)
+(begin
+(define x 10)
+x)
+(let ((x (begin 1 2))) x)

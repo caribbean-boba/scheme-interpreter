@@ -1,0 +1,6 @@
+(car '(ahhh ahh 'ahh))
+(define nothing
+(lambda (x)
+'(wqe 'sdff'sd)))
+'(wqe 'sdff 3213212'13)
+(nothing 2)

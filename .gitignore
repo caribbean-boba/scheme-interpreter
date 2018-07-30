@@ -1,0 +1,7 @@
+interpreter
+interpreter.o
+linkedlist.o
+main.o
+parser.o
+talloc.o
+tokenizer.o

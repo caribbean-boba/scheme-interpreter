@@ -1,0 +1,6 @@
+foo
+a
+(a b c)
+(a b (quote (c d e)))
+"haha"
+2

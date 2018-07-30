@@ -1,0 +1,7 @@
+(and)
+(or)
+(and 2)
+(and (quote 3) 9 3.3 4)
+(and #f (quote 3))
+(or #t #f)
+(or #f #f)

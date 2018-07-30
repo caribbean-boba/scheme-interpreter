@@ -1,0 +1,13 @@
+(letrec () 1)
+(letrec ((even? (lambda (n) (if (zero? n)
+                                #t
+                                (odd? (- n 1)))))
+         (odd?  (lambda (n) (if (zero? n)
+                                #f
+                                (even? (- n 1))))))
+  (even? 23))
+
+(define x 23)
+
+(let ((x (lambda () x)))
+  (x))

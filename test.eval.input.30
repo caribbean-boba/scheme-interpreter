@@ -1,0 +1,8 @@
+(define x 0)
+(begin (set! x 5)
+       (+ x 1))
+(define flag #f)
+(begin (if flag
+		(set! flag #f)
+   		(set! flag #t))
+   flag)

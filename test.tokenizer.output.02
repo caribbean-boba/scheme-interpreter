@@ -1,0 +1,8 @@
+"king's man":string
+"king's man":string
+"king\"s man":string
+"king\ts man":string
+"king \n man":string
+"king \t man":string
+"\\\"":string
+"\\\\'":string

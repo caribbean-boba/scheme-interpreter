@@ -1,0 +1,12 @@
+>23:symbol
+<23:symbol
+>:symbol
+23:integer
+<:symbol
+23:integer
+>=23:symbol
+>=:symbol
+23:integer
+<=*&23:symbol
+<=*&:symbol
+23:integer

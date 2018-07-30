@@ -1,0 +1,2 @@
+(load "list.scm")
+(load "math.scm")

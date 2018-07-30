@@ -1,0 +1,8 @@
+"king\'s man"
+"king's man"
+"king\"s man"
+"king	s man"
+"king \n man"
+"king \t man"
+"\\\""
+"\\\\'"

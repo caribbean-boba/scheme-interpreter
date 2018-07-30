@@ -1,0 +1,15 @@
+(let ((x 23))
+  (let ((x 42)
+        (f (lambda () x)))
+    (list x (f))))
+
+(let ((x 23))
+  (let ((x 42)
+        (f (lambda () x)))
+    (set! x 251)
+    (list x (f))))
+
+(let ((x 23))
+  (let ((f (lambda () x)))
+    (set! x 251)
+    (list x (f))))

@@ -1,0 +1,4 @@
+;;Creates a lazy infinite range of numbers, starting at a
+(define return-string
+  (lambda (x)
+  	"king\'s man"))

@@ -1,0 +1,1 @@
+(if #t (lambda () "haha ha\tha'") (list x y)) "haha's haha"

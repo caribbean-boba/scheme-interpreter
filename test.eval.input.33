@@ -1,0 +1,5 @@
+(load "test.eval.input.01")
+(load "test.eval.input.02")
+(load "test.eval.input.03")
+(load "test.eval.input.04")
+(load "test.eval.input.05")

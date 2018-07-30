@@ -1,0 +1,6 @@
+(list-ref (list 'a 'b 'c) 0)
+(list-ref (list 'a 'b 'c) 1)
+(list-ref (list 'a 'b 'c) 2)
+(list-ref (list 'a 'b 'hello 'c) 2)
+(list-tail (list 1 2 3 4) 2)
+(append (list 1 2) (list 3 4))

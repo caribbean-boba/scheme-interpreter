@@ -1,0 +1,13 @@
+(define double-any
+  (lambda (f x)
+    (f x x)))
+
+(double-any + 10)
+
+(let ((x 1))
+  (let ((x (+ x 1)))
+    (+ x x)))
+
+(let ((x 1))
+  (let ((new-x (+ x 1)))
+    (+ new-x new-x)))

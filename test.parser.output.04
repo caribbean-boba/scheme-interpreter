@@ -1,0 +1,1 @@
+(define ab (quote a)) (define a 23) (car y) (cdr x) (car (car x))

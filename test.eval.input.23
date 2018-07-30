@@ -1,0 +1,5 @@
+(cond)
+(cond (else 5))
+(cond (#f 3))
+(cond ((null? (quote ())) 3))
+(cond ((null? (quote (5))) 3) (else 199))

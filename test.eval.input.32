@@ -1,0 +1,4 @@
+(let ((x 5) (y 8))
+(set!  y (+ 1 x))
+y)
+(set! i-am-not-defined 10)

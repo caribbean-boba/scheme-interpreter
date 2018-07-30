@@ -1,0 +1,1 @@
+(define nth (lambda (llst n) (cond ((or (null? llst) (< n 1)) #f) ((= n 1) (car llst)) (else (nth ((cdr llst)) (- n 1))))))

@@ -1,0 +1,44 @@
+(car (quote (a b c)))
+(cdr (quote (a b c)))
+(cons (quote a) (quote (b c)))
+(cons (car (quote (a b c)))
+      (cdr (quote (d e f))))
+
+(car (quote (a b c)))
+(cdr (quote (a b c)))
+(cdr (quote (a)))
+
+(car (cdr (quote (a b c))))
+(cdr (cdr (quote (a b c))))
+
+(car (quote ((a b) (c d))))
+(cdr (quote ((a b) (c d))))
+
+(cons (quote +) (quote (2 3)))
+
+(+ (car (quote (2 3))) (car (cdr (quote (2 3)))))
+
+(let ((x 2) (y 3))
+  (+ x y))
+(let ((f +) (x 2) (y 3))
+  (f x y))
+
+(let ((x 1))
+  (let ((x (+ x 1)))
+    (+ x x)))
+
+(let ((double-cons (lambda (x) (cons x x))))
+  (double-cons (quote a)))
+
+(let ((x (quote ((a b) c))))
+  (cons (let ((x (cdr x)))
+          (car x))
+        (let ((x (car x)))
+          (cons (let ((x (cdr x)))
+                  (car x))
+                (cons (let ((x (car x)))
+                        x)
+                      (cdr x))))))
+(null? (quote ()))
+(null? (quote abc))
+(null? (quote (x y z)))
